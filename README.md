@@ -74,32 +74,8 @@ https://resume-builderfrontend.vercel.app/
 
    cd your-repo-name
 
-2. Setup Backend
-   
-   cd server
 
-   npm install
-
-   Run backend:
-
-   nodemon server.js
-
-   Create a .env file in the backend folder and add:
-
-   MONGO_URI=your_mongodb_connection
-
-   JWT_SECRET=your_secret_key
-
-   GEMINI_API_KEY=your_gemini_api_key
-
-   IMAGEKIT_PUBLIC_KEY=your_public_key
-
-   IMAGEKIT_PRIVATE_KEY=your_private_key
-
-   IMAGEKIT_URL_ENDPOINT=your_url_endpoint
-
-
-4. Setup Frontend
+3. Setup Frontend
 
    cd client
    
@@ -135,12 +111,16 @@ Drag-and-drop resume sections
 
 Dark mode UI
 
+## 🔗 Backend Repository
+
+The backend part for this project is available here:
+
+https://github.com/hritikkumar07/Resume-Builder
+
 📧 Contact
 
 If you have any queries or suggestions, feel free to reach out.
 
- Show Your Support
 
-If you like this project, give it a ⭐ on GitHub!
 
 
