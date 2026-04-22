@@ -63,6 +63,8 @@ ImageKit – Image storage and processing
 
 🌍 Live Demo
 
+https://resume-builderfrontend.vercel.app/
+
 
 ⚙️ Installation & Setup
 
@@ -78,6 +80,10 @@ ImageKit – Image storage and processing
 
    npm install
 
+   Run backend:
+
+   nodemon server.js
+
    Create a .env file in the backend folder and add:
 
    MONGO_URI=your_mongodb_connection
@@ -92,11 +98,8 @@ ImageKit – Image storage and processing
 
    IMAGEKIT_URL_ENDPOINT=your_url_endpoint
 
-   Run backend:
 
-   nodemon server.js
-
-3. Setup Frontend
+4. Setup Frontend
 
    cd client
    
