@@ -1,20 +1,143 @@
-<<<<<<< HEAD
-# React + Vite
+🚀Resume Builder website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack Online Resume Builder application built using the MERN Stack (MongoDB, Express.js, React.js, Node.js) that allows users to create, manage, and optimize resumes with modern features like AI enhancement and live preview.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📌 Features
 
-## React Compiler
+🔐 User Authentication
+Secure Sign Up / Sign In system
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+📝 Create & Manage Resumes
+Create multiple resumes
+Edit, update, and delete resumes easily
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Resume-Builder-Frontend
->>>>>>> ae63a736e8f9f0e9958d7c60813d5535aa715ecb
+
+👀 Live Resume Preview
+Real-time preview while editing
+Generate a shareable resume link
+
+
+🌐 Share Resume
+Share your resume via a live URL
+
+
+🤖 AI Resume Optimization
+Improve resume content using Google Gemini AI
+
+
+📄 Upload Resume
+Upload existing resume and enhance it using AI
+
+
+🖼️ Profile Image Handling
+Upload profile images
+Remove background from images
+
+
+🎨 Multiple Templates
+Choose from various professional resume templates
+
+
+
+🛠️ Tech Stack
+
+Frontend->
+React.js,
+Tailwind CSS 
+
+Backend->
+Node.js,
+Express.js
+
+Database->
+MongoDB
+
+Third-Party Services->  
+
+Google Gemini AI – Resume optimization,
+
+ImageKit – Image storage and processing
+
+
+🌍 Live Demo
+
+
+⚙️ Installation & Setup
+
+1. Clone the repository
+   
+   git clone https://github.com/your-username/your-repo-name.git
+
+   cd your-repo-name
+
+2. Setup Backend
+   
+   cd server
+
+   npm install
+
+   Create a .env file in the backend folder and add:
+
+   MONGO_URI=your_mongodb_connection
+
+   JWT_SECRET=your_secret_key
+
+   GEMINI_API_KEY=your_gemini_api_key
+
+   IMAGEKIT_PUBLIC_KEY=your_public_key
+
+   IMAGEKIT_PRIVATE_KEY=your_private_key
+
+   IMAGEKIT_URL_ENDPOINT=your_url_endpoint
+
+   Run backend:
+
+   nodemon server.js
+
+3. Setup Frontend
+
+   cd client
+   
+   npm install
+   
+   npm run dev
+   
+   
+
+🔑 Key Highlights
+
+Full-stack MERN application
+
+AI-powered resume improvement
+
+Real-time preview system
+
+Clean and scalable architecture
+
+Image processing integration
+
+
+
+📈 Future Improvements
+
+Add more resume templates
+
+PDF download feature
+
+ATS score checker
+
+Drag-and-drop resume sections
+
+Dark mode UI
+
+📧 Contact
+
+If you have any queries or suggestions, feel free to reach out.
+
+ Show Your Support
+
+If you like this project, give it a ⭐ on GitHub!
+
+
